@@ -13,7 +13,9 @@ Copyright (c) 2019 Charlie Benjafield
 */
 define('FYN_plugin_path', plugin_dir_path(__FILE__));
 define('FYN_src_path', FYN_plugin_path . '/src');
+define('FYN_components_path', FYN_plugin_path . '/components');
 
+require_once FYN_src_path . '/functions.php';
 require_once FYN_src_path . '/FindYourNearest.php';
 
 $fyn = new Benjafield\FindYourNearest\FindYourNearest;

@@ -31,7 +31,16 @@ class Shortcodes {
 
 	public function scSearchForm($atts = [])
 	{
-
+		return fyn_component('search-form', shortcode_atts([
+			'form_id' => 'fyn-form-' . uniqid(),
+			'form_class' => '',
+			'field_id' => '',
+			'field_class' => '',
+			'field_placeholder' => 'Enter your postcode...',
+			'button_id' => '',
+			'button_class' => '',
+			'button_text' => ''
+		], $atts));
 	}
 
 }
