@@ -1,0 +1,21 @@
+{
+    "name": "cbenjafield/find-your-nearest",
+    "description": "A WordPress plugin to allow site visitors to search for their nearest store, branch etc.",
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Charlie Benjafield",
+            "email": "me@cbenjafield.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Benjafield\\FindYourNearest\\": "src"
+        }
+    }
+}
