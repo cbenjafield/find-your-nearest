@@ -39,7 +39,7 @@ class Shortcodes {
 			'field_placeholder' => 'Enter your postcode...',
 			'button_id' => '',
 			'button_class' => '',
-			'button_text' => ''
+			'button_text' => 'Search'
 		], $atts));
 	}
 

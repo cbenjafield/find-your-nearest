@@ -10,6 +10,19 @@ An example of this search is present on the [driveJohnson's website](https://www
 
 This plugin comes with some predefined shortcodes out of the box. 
 
+#### [fyn-search-form]
+
+| Attribute         |  Default              |
+|-------------------|-----------------------|
+| form_id           | A random ID           |
+| form_class        | none                  |
+| field_id          | none                  |
+| field_class       | none                  |
+| field_placeholder | 'Enter your postcode' |
+| button_id         | none                  |
+| button_class      | none                  |
+| button_text       | 'Search'              |
+
 `[fyn-search-form]` will output a search form containing a text input field for the postcode and a search button. You can create your own shortcodes though. As long as you give your form the class of `fyn-form` and an input with the name `postcode` is submitted with the form, and there is an empty `div` with the class of `fyn-results`, the plugin will take care of the rest.
 
 	Example coming soon
