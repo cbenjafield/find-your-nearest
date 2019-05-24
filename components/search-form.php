@@ -5,4 +5,5 @@
 	<div class="fyn-form-submit">
 		<button type="submit" class="fyn-form-button<?php echo !empty($button_class) ? ' ' . $button_class : ''; ?>"><?php echo !empty($button_text) ? $button_text : 'Search'; ?></button>
 	</div>
+	<div class="fyn-results"></div>
 </form>
